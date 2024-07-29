@@ -1,0 +1,299 @@
+/* Start FrameWork */
+
+:root {
+    --main-transition: .5s;
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+    --box-gray-color: #eee;
+    --text-box-color: #b1b1b1;
+    --baby-blue-color: #1da1f2;
+    --linked-color: #0077b5;
+}
+
+.box {
+    min-height: 420px;
+}
+
+.d-block {
+    display: block;
+}
+
+/* Start display grid  */
+.d-grid {
+    display: grid;
+}
+
+@media (max-width : 770px) {
+    .d-mobile {
+        flex-direction: column;
+    }
+}
+
+/* End display grid  */
+
+/* Start display Flex  */
+.d-flex {
+    display: flex;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.j-content {
+    justify-content: space-between;
+}
+
+.column-flex {
+    flex-direction: column;
+}
+
+/* End display Flex  */
+
+/* Start Gap  */
+.gap-10 {
+    gap: 10px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.gap-25 {
+    gap: 25px;
+}
+
+/* End Gap  */
+
+/* Start Background color and text color  */
+.bg-white {
+    background-color: white;
+}
+
+.bg-red {
+    background-color: var(--red-color);
+}
+
+.bg-gray {
+    background-color: var(--box-gray-color);
+}
+
+.bg-blue {
+    background-color: var(--blue-color);
+}
+
+.bg-green {
+    background-color: var(--green-color);
+}
+
+.bg-orange {
+    background-color: var(--orange-color);
+}
+
+.bg-baby-blue {
+    background-color: var(--baby-blue-color);
+}
+
+.bg-linkedin {
+    background-color: var(--linked-color);
+}
+
+.c-black {
+    color: black;
+}
+
+.c-white {
+    color: white;
+}
+
+.c-linked {
+    color: var(--linked-color);
+}
+
+.c-baby-blue {
+    color: var(--baby-blue-color);
+}
+
+.c-gray {
+    color: var(--grey-color);
+}
+
+.c-red {
+    color: var(--red-color);
+}
+
+.c-blue {
+    color: var(--blue-color);
+}
+
+.c-orange {
+    color: var(--orange-color);
+}
+
+.c-green {
+    color: var(--green-color);
+}
+
+
+/* End Background color and text color  */
+
+/* Start Padding and Margin  */
+.p-10 {
+    padding: 10px;
+}
+
+.p-top-bottom-10 {
+    padding: 10px 0px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.m-10 {
+    margin: 10px;
+}
+
+.m-20 {
+    margin: 20px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mt-0 {
+    margin-top: 0px;
+}
+.m-0 {
+    margin: 0px;
+}
+
+.mr-10 {
+    margin-right: 10px;
+}
+
+.ml-40 {
+    margin-left: 40px;
+}
+
+/* End Padding and Margin  */
+.p-relative {
+    position: relative;
+}
+
+/* Start Text style  */
+.txt-c {
+    text-align: center;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-20 {
+    font-size: 20px;
+}
+
+.fs-25 {
+    font-size: 25px;
+}
+
+.page-title {
+    margin-top: 0px;
+    padding-bottom: 20px;
+    width: 200px;
+    border-bottom: 3px solid;
+    border-image-source: linear-gradient(to right, black 30%, white 30% 70%, transparent 70%);
+    border-image-slice: 1;
+}
+
+@media (max-width : 770px) {
+    .t-c-mobile {
+        text-align: center;
+    }
+}
+
+/* End Text style  */
+
+/* Start Border raduis  */
+.rad-10 {
+    border-radius: 10px;
+}
+
+.rad-20 {
+    border-radius: 20px;
+}
+
+.rad-top-20 {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.rad-circle {
+    border-radius: 50%;
+}
+
+/* End Border raduis  */
+
+.w-full {
+    width: 100%;
+}
+
+.w-img-30 {
+    width: 30px;
+}
+
+.w-img-50 {
+    width: 50px;
+}
+.w-img-70 {
+    width: 70px;
+}
+
+.w-img-100 {
+    width: 100px;
+}
+
+/* Start Component  */
+.space-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.center-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-shape {
+    padding: 5px 10px;
+    margin: 10px;
+}
+
+/* End Component  */
+
+.o-flow {
+    overflow: hidden;
+}
+
+@media (max-width : 770px) {
+    .d-none {
+        display: none;
+    }
+}
+
+.border-none {
+    border: none;
+}
+
+/* End FrameWork */
